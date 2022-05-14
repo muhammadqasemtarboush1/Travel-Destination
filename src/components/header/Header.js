@@ -1,12 +1,10 @@
+import Navbar from "../Navbar/Navbar";
 import "./Header.css";
 function Header() {
   return (
     <>
       <header>
-        {/* <nav className="">
-          <ul className="">
-          </ul>
-        </nav> */}
+        <Navbar />
         <br />
         <div className="">
           <h1 className="">Welcome To Travel Destination</h1>
