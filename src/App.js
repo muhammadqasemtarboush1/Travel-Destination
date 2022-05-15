@@ -3,7 +3,7 @@ import Home from "./components/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Tour from "./components/tours/tour/Tour";
+import TourDetails from "./components/TourDetails/TourDetails";
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
         <main className="">
           <Routes>
             <Route path="/" index element={<Home />} />
-            <Route path="/city/:id" index element={<Tour />} />
+            <Route path="/city/:id" index element={<TourDetails />} />
           </Routes>
         </main>
         <Footer />

@@ -13,14 +13,14 @@ function Footer() {
           <i className="fa-brands fa-facebook-f"></i>
         </a>
       </div>
-      <p>
-        Created By
-        <div>
+      <div>
+        <span>
+          Created By
           <a href="https://github.com/muhammadqasemtarboush1">
             Muhammad Tarboush
           </a>
-        </div>
-      </p>
+        </span>
+      </div>
       <div className="copyright">Copyright (c) 2022 @Travel Destination</div>
     </footer>
   );

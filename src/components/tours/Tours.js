@@ -1,12 +1,12 @@
-import data from "../../data/db.json";
+// import data from "../../data/db.json";
 import Tour from "./tour/Tour";
 import "./Tours.css";
-function Tours() {
+function Tours({ data }) {
   return (
     <div>
       <ul className="cards">
-        {data.map((element, index) => {
-          return <Tour data={element} />;
+        {data.map((element) => {
+          return <Tour data={element} key={element.id} />;
         })}
       </ul>
     </div>
